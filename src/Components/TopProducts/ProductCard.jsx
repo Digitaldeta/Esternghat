@@ -13,7 +13,7 @@ const ProductCard = ({ img, name, category, desciption }) => {
 
   return (
     <>
-    <div to="/product-details">
+    <div>
       {" "}
       <div
         className="product md:w-[24rem] sm:w-[12rem] w-[8rem]  bg-white shadow-xl rounded-lg border group overflow-hidden mx-auto"
@@ -39,9 +39,9 @@ const ProductCard = ({ img, name, category, desciption }) => {
             <h1 className="title md:text-2xl text-lg font-bold text-black">
               {name}
             </h1>
-            <h3 className="category text-lg text-slate-600 font-bold">
+            {/* <h3 className="category text-lg text-slate-600 font-bold">
               {category}
-            </h3>
+            </h3> */}
           </div>
           <p className="description truncate overflow-hidden text-base text-slate-600">
             {desciption}
